@@ -1,0 +1,30 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 8px;
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin: 10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    min-width: 320px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+.card:hover{
+    box-shadow: 6px 6px 17px 4px;
+}
+@media(max-width:524px){
+    .card{
+        display: block;
+        margin: 0 0 10px 0;
+        padding-bottom: 35px;
+    }
+    .container{
+        padding: 0;
+    }
+}

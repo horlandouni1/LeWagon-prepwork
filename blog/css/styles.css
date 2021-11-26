@@ -1,0 +1,12 @@
+@import url(components/banner.css);
+@import url(components/button.css);
+@import url(components/cards.css);
+@import url(components/card.css);
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
